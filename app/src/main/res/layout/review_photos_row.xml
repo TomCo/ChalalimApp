@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rprLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?android:attr/selectableItemBackground"
+    android:clickable="true"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/rprTitle"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="16dp"
+            android:text="אצבע אלף"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <ImageView
+            android:layout_width="48dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_check"
+            android:id="@+id/rprIcon" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/rprImage"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:padding="8dp"
+        android:src="@drawable/ic_gallery" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_margin="8dp"
+        android:background="@color/colorAccent" />
+
+</LinearLayout>

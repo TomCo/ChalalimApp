@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">App</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_crop">CropActivity</string>
+
+
+    <!-- NOT SAFE TO CHANGE ORDER -->
+    <array name="fingerDisplayNames">
+        <item name="unknown">לא ידוע</item>
+        <item name="rightThumb">אגודל ימין</item>
+        <item name="rightIndex">אצבע ימין</item>
+        <item name="rightMiddle">אמה ימין</item>
+        <item name="rightRing">קמיצה ימין</item>
+        <item name="rightPinky">זרת ימין</item>
+
+        <item name="leftThumb">אגודל שמאל</item>
+        <item name="leftIndex">אצבע שמאל</item>
+        <item name="leftMiddle">אמה שמאל</item>
+        <item name="leftRing">קמיצה שמאל</item>
+        <item name="leftPinky">זרת שמאל</item>
+    </array>
+
+    <!-- NOT SAFE TO CHANGE ORDER -->
+    <array name="fingerFileNames">
+        <item name="unknown">0.png</item>
+        <item name="rightThumb">1.png</item>
+        <item name="rightIndex">2.png</item>
+        <item name="rightMiddle">3.png</item>
+        <item name="rightRing">4.png</item>
+        <item name="rightPinky">5.png</item>
+
+        <item name="leftThumb">6.png</item>
+        <item name="leftIndex">7.png</item>
+        <item name="leftMiddle">8.png</item>
+        <item name="leftRing">9.png</item>
+        <item name="leftPinky">10.png</item>
+    </array>
+
+    <array name="tabTitles">
+        <item name="viewCases">צפייה בקייסים</item>
+        <item name="viewCases">הוספת קייס</item>
+    </array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_review_photos">בחן תמונות</string>
+    <string name="title_activity_crop_result">CropResultActivity</string>
+</resources>
