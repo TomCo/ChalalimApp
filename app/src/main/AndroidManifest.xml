@@ -23,14 +23,22 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".activities.CropActivity"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity
             android:name=".activities.ReviewPhotosActivity"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".activities.CropResultActivity"
-            android:label="@string/title_activity_crop_result"
+            android:name=".activities.ScanActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activities.StationListActivity"
+            android:label="@string/title_activity_station_list"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activities.MesimotListActivity"
+            android:label="@string/title_activity_mesimot_list"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activities.HishtalshelutActivity"
+            android:label="@string/title_activity_hishtalshelut"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 

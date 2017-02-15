@@ -45,4 +45,7 @@
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="title_activity_review_photos">בחן תמונות</string>
     <string name="title_activity_crop_result">CropResultActivity</string>
+    <string name="title_activity_station_list">StationListActivity</string>
+    <string name="title_activity_mesimot_list">MesimotListActivity</string>
+    <string name="title_activity_hishtalshelut">HishtalshelutActivity</string>
 </resources>

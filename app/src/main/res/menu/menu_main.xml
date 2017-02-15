@@ -3,9 +3,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     tools:context="com.themeteam.app.activities.MainActivity">
     <item
-        android:id="@+id/mmNext"
-        android:icon="@drawable/ic_next"
+        android:id="@+id/mmScan"
+        android:icon="@drawable/ic_camera"
         android:orderInCategory="100"
-        android:title="נקסט"
+        android:title="סרוק דיסקית"
         app:showAsAction="always" />
 </menu>
